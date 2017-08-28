@@ -10,5 +10,5 @@ minVindue.fill((0, 255, 0))
 while (True):
 
 
-    pygame.draw.circle(minVindue , (255 , 0 , 0) , (50 , 10) , 10 , 0)
+    pygame.draw.circle(minVindue , (255 , 0 , 0) , (50 , 200-10) , 10 , 0)
     pygame.display.update()
