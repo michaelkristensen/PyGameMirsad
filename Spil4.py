@@ -12,3 +12,5 @@ while (True):
 
     pygame.draw.circle(minVindue , (255 , 0 , 0) , (50 , 200-10) , 10 , 0)
     pygame.display.update()
+
+    #HUSK clock

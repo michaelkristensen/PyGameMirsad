@@ -10,10 +10,10 @@ minVindue = pygame.display.set_mode((500, 200))
 
 while (True):
 
-    ############# Kun til at afslute PyGame ##################
+
     for event in pygame.event.get():
         print (event)
-        if (event.type == pygame.locals.QUIT):
+        if (event.type == pygame.locals.QUIT):############# Kun til at afslute PyGame ##################
             pygame.quit()
             sys.exit()
 

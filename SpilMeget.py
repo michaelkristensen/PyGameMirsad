@@ -4,6 +4,8 @@ import sys
 import pygame.locals
 import math
 
+
+
 xVindueBrede = 1200
 yVindueHoejde = 600
 
