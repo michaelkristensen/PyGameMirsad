@@ -46,7 +46,8 @@ def findTrekantOmskrevneCirkelsRadius(a,b,c): #Lead: Gwion, team: Frederik L, Fr
 def findTrekantOmskrevneCirkelsKordinater(): #Lead: Magnus, team: Christoffer, Liam
     return 0
 
-def findTrekantIndskrevneCirkelsRadius(): #Lead: Michael, team: Alexander
+def findTrekantIndskrevneCirkelsRadius(areal, omkreds): #Lead: Michael, team: Alexander
+    r = areal / (omkreds * 2)
     return 0
 
 def findTrekantIndskrevneCirkelsKordinater(): #Lead: Gabriel, team: Allan, Daniel
